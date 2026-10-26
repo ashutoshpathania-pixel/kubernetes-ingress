@@ -1004,7 +1004,7 @@ type JWTAuthorizationRule struct {
 // JWTClaim is a check on a single JWT claim.
 // +kubebuilder:validation:XValidation:rule="(has(self.match) && self.match == 'Present') ? !has(self.values) : (has(self.values) && size(self.values) > 0)",message="values is required unless match is Present, and forbidden when match is Present"
 // +kubebuilder:validation:XValidation:rule="!(has(self.match) && self.match == 'Present' && has(self.negate) && self.negate) || !has(self.proxySetHeader)",message="proxySetHeader cannot be set when match is Present and negate is true"
-// +kubebuilder:validation:XValidation:rule="!(has(self.match) && self.match == 'Contains') || !has(self.values) || self.values.all(v, !v.contains(' ') && !v.contains(','))",message="values must not contain a space or comma when match is Contains"
+// +kubebuilder:validation:XValidation:rule="!(has(self.match) && self.match == 'Contains') || !has(self.values) || self.values.all(v, !v.matches('[ ,]'))",message="values must not contain a space or comma when match is Contains"
 type JWTClaim struct {
 	// The claim name. Nested claims are separated by ".", for example realm_access.roles.
 	// +kubebuilder:validation:MinLength=1

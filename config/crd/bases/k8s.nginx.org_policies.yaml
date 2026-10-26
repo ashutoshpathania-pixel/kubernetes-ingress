@@ -697,8 +697,8 @@ spec:
                                 - message: values must not contain a space or comma
                                     when match is Contains
                                   rule: '!(has(self.match) && self.match == ''Contains'')
-                                    || !has(self.values) || self.values.all(v, !v.contains(''
-                                    '') && !v.contains('',''))'
+                                    || !has(self.values) || self.values.all(v, !v.matches(''[
+                                    ,]''))'
                               maxItems: 32
                               minItems: 1
                               type: array

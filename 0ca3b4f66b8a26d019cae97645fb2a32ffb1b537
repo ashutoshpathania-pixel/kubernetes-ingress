@@ -1,0 +1,40 @@
+pkg/apis/configuration/v1/types.go
+  s_65f87025f3145d::t_6575cfc7fffd3c 136-137,205-211
+  s_65f87025f3145d::t_a30611a354f2f3 212-213
+internal/configs/virtualserver.go
+  s_65f87025f3145d::t_25293e1508748e 1066,1551
+  s_65f87025f3145d::t_69b62fa7b04190 598-600
+  s_65f87025f3145d::t_933c6899217146 1520,1541
+  s_65f87025f3145d::t_6575cfc7fffd3c 41,228-235,521,550,569,589,648,830,1444,1460-1477,1490-1519,1521-1540,1542-1550,1552-1556,1558-1580,2330-2334,2349,2372
+  s_65f87025f3145d::t_0cec5b6b66610a 1557
+pkg/apis/configuration/validation/virtualserver.go
+  s_65f87025f3145d::t_6575cfc7fffd3c 653,682-716
+  s_65f87025f3145d::t_fe4bac1f2f29e5 717-718
+internal/configs/virtualserver_subset_hash_test.go
+  s_65f87025f3145d::t_ab78eb1f174faf 33,36
+  s_65f87025f3145d::t_69b62fa7b04190 99,126-127
+  s_65f87025f3145d::t_5427b68ce385bc 4,157-158,160-168,170-172,174-175
+  s_65f87025f3145d::t_56cca9e72df1ac 159
+  s_65f87025f3145d::t_933c6899217146 145-147,169
+  s_65f87025f3145d::t_0cec5b6b66610a 15-17
+  s_65f87025f3145d::t_069d94b99fde5a 173
+  s_65f87025f3145d::t_25293e1508748e 1-3,5-14,18-32,34-35,37-98,100-125,128-144,148-156,176-177
+pkg/apis/configuration/validation/virtualserver_test.go
+  s_65f87025f3145d::t_25293e1508748e 3295-3379
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "0ca3b4f66b8a26d019cae97645fb2a32ffb1b537",
+  "prompts": {},
+  "sessions": {
+    "s_65f87025f3145d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17c4d-8b19-7183-8eb5-ebcb8d545c71",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Ashutosh Pathania <ashutosh.pathani@jiostar.com>"
+    }
+  }
+}

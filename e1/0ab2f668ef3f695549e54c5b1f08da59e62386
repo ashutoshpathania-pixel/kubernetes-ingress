@@ -1,0 +1,45 @@
+config/crd/bases/k8s.nginx.org_virtualserverroutes.yaml
+  s_563e80d9538049::t_cd686f9930084e 965-979
+config/crd/bases/k8s.nginx.org_virtualservers.yaml
+  s_563e80d9538049::t_7fc7b0df61e681 1166-1180
+deploy/crds.yaml
+  s_563e80d9538049::t_18119743296bd1 2748-2762,4275-4289
+docs/crd/k8s.nginx.org_virtualserverroutes.md
+  s_563e80d9538049::t_e0fac22b4d0852 183-185
+docs/crd/k8s.nginx.org_virtualservers.md
+  s_563e80d9538049::t_72ef3cf94fad45 219-221
+internal/configs/virtualserver.go
+  s_563e80d9538049::t_ca66f61418ba9c 41,228-235,521,550,569,589,598-600,648,830,1066,1444,1460-1477,1490-1580,2330-2334,2349,2372
+internal/configs/virtualserver_subset_hash_test.go
+  s_563e80d9538049::t_e390869e4457c3 1-177
+pkg/apis/configuration/v1/types.go
+  s_563e80d9538049::t_abb9d3d5cbe6c5 136-137,205-213
+pkg/apis/configuration/v1/zz_generated.deepcopy.go
+  s_563e80d9538049::t_b27a8ed7f9f33f 679-694,1710-1714
+pkg/apis/configuration/validation/virtualserver.go
+  s_563e80d9538049::t_9c324032f32571 653,682-718
+pkg/apis/configuration/validation/virtualserver_test.go
+  s_563e80d9538049::t_51a6a95ff8fba1 3295-3379
+pkg/client/applyconfiguration/configuration/v1/hashsubset.go
+  s_563e80d9538049::t_fedf0c8306d0fb 1-36
+pkg/client/applyconfiguration/configuration/v1/upstream.go
+  s_563e80d9538049::t_507dfc9fefa5cf 20-21,137-144
+pkg/client/applyconfiguration/utils.go
+  s_563e80d9538049::t_90cc834dfc4220 111-112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e10ab2f668ef3f695549e54c5b1f08da59e62386",
+  "prompts": {},
+  "sessions": {
+    "s_563e80d9538049": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c19f-05be-7e60-af3a-eaa88dd0de09",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Ashutosh Pathania <282491649+ashutoshpathania-pixel@users.noreply.github.com>"
+    }
+  }
+}

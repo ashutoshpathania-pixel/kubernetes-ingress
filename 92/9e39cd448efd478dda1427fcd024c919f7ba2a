@@ -1,0 +1,31 @@
+cmd/nginx-ingress/flags.go
+  s_563e80d9538049::t_e4ef397ba597fb 229
+internal/configs/configurator_test.go
+  s_563e80d9538049::t_7c2bd3a7a61b74 2608
+internal/configs/version1/nginx-plus.tmpl
+  s_563e80d9538049::t_1f01c4500f3557 104
+internal/configs/version1/nginx.tmpl
+  s_563e80d9538049::t_e1b4d5bbb2aafc 75
+internal/configs/version1/template_executor_test.go
+  s_563e80d9538049::t_39f7e3ceef57c5 210
+internal/metrics/collectors/latency.go
+  s_563e80d9538049::t_3fdd525680e19a 75,81,110-118,122,158-166,206,212,217,222-228,259-282,293-302,320-329,334-337,343,354-361,364,369,371-374,395-404
+internal/metrics/collectors/latency_test.go
+  s_563e80d9538049::t_6522866aee87ce 296-332
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "929e39cd448efd478dda1427fcd024c919f7ba2a",
+  "prompts": {},
+  "sessions": {
+    "s_563e80d9538049": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c19f-05be-7e60-af3a-eaa88dd0de09",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Ashutosh Pathania <282491649+ashutoshpathania-pixel@users.noreply.github.com>"
+    }
+  }
+}
